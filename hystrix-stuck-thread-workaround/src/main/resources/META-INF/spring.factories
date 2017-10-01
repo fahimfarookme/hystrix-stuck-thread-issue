@@ -1,0 +1,6 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+me.fahimfarook.spring.cloud.hystrix.core.HystrixStreamEnvironmentPostProcessor
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+me.fahimfarook.spring.cloud.hystrix.core.HystrixStreamConfiguration,\
+me.fahimfarook.spring.cloud.hystrix.dashboard.HystrixWebLogicDashboardConfiguration
