@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package me.fahimfarook.spring.cloud.hystrix.dashboard;
 
 import java.util.HashMap;
@@ -21,6 +22,7 @@ import java.util.Map;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
+ * Copied some from https://github.com/fahimfarookme/spring-cloud-netflix/commit/5f6d0f6a3f820d78b840aac810f34c094f437a63.
  * @author Fahim Farook
  */
 @ConfigurationProperties("hystrix.dashboard")
